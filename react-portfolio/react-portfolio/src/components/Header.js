@@ -36,3 +36,5 @@ function Header({ currentPage, setCurrentPage }) {
         </header>
     )
 }
+
+export default Header;
