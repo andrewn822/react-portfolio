@@ -6,10 +6,9 @@
     "node": "18.12.1"
   },
   "scripts": {
-    "test": "jest",
     "start": "node server.js",
     "watch": "nodemon server.js",
-    "seed": "node seeds/index.js"
+    "seed": "node ./seeds"
   },
   "dependencies": {
     "bcrypt": "^5.1.0",
