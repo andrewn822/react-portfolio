@@ -16,7 +16,7 @@ const List = ({ social }) => {
 
     return (
         <a
-        href={socials.href}
+        href={social.href}
         target="_blank"
         rel="noreferrer"
         onMouseEnter={handleEvent}

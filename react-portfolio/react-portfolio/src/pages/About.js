@@ -1,3 +1,6 @@
+import portrait from '../assets/images/cat-pic.jpeg';
+
+
 function About() {
     const styles = {
         title: {

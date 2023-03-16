@@ -53,7 +53,7 @@ function FormFields({ name, state }) {
 
 function Contact() {
     const fields = ['name', 'email', 'message'];
-    const [state, handleSubmit] = useForm(proces.env.REACT_APP_FORM_KEY);
+    const [state, handleSubmit] = useForm(process.env.REACT_APP_FORM_KEY);
 
     if (state.succeeded) {
         return (
@@ -65,7 +65,7 @@ function Contact() {
 
     return (
         <section className='container d-flex bg-gray p-5' id='contact'>
-            <form onSubmit={handlesubmit} className='col-sm-6'>
+            <form onSubmit={handleSubmit} className='col-sm-6'>
                 {fields.map((field) => (
                     <FormFields key={field} name={field} state={state} />
                 ))}
